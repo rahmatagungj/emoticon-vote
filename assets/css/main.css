@@ -1,0 +1,34 @@
+body{
+    width: 75%;
+    margin: 30px auto;
+    font-family: sans-serif;
+}
+
+.emotions {
+    position: relative;
+    float: left;
+    width: 30%;
+    border: 2px solid grey;
+    padding: 5px;
+}
+
+.emotions img{
+    width: 150px;
+}
+
+.emotions span{
+    position: absolute;
+    font-size: 40px;
+    left: 180px;
+    top: 20px;
+}
+
+.emotions span.total {
+    font-size: 20px;
+    top: 100px;
+}
+
+.emotions:hover {
+    cursor: pointer;
+    background: rgb(234, 237, 236);
+}
